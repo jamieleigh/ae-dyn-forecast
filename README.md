@@ -4,9 +4,9 @@ This repository contains code which can be used to constuct a simple dynamic for
 
 Suppose you have two sets of count data counts1 (A&E Admissions) and counts2 (A&E Attendances) and they are related to one another via
 
-$ counts1 = \beta_{1} counts2 + n_t $
+counts1 = beta_1 counts2 + n_t
 
-where $n_t$ is assumed to follow an ARIMA Process.
+where n_t is assumed to follow an ARIMA Process.
 
 
 Then the scripts in this repository will:
@@ -20,7 +20,7 @@ The exogenous variables used in step 1 include:
 - Holiday indicators;
 - Fourier terms for the yearly seasonality.
 
-The code can be edited to include additional variables and currently runs using simulated count data.
+The code can be edited to include additional variables, for example weather data. It currently runs using simulated count data, however these should be replaced using your own data. It currently accepts three sets of count data, the third could be Walk in Centre Attendances, or Ambulance Arrivals, for example. 
 
 Please get in touch if you would like support implementing this forecsting model, in particular, integrating it with Qlik Sense. 
 
