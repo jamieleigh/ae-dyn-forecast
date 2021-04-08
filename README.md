@@ -20,7 +20,7 @@ The exogenous variables used in step 1 include:
 - Holiday indicators;
 - Fourier terms for the yearly seasonality.
 
-The code can be edited to include additional variables.
+The code can be edited to include additional variables and currently runs using simulated count data.
 
 Please get in touch if you would like support implementing this forecsting model, in particular, integrating it with Qlik Sense. 
 
